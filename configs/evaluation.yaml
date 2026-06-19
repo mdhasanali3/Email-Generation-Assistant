@@ -1,0 +1,15 @@
+strategies:
+  - zero_shot
+  - few_shot
+
+metrics:
+  fact_coverage:
+    threshold: 0.8
+  tone:
+    judge_model: google/gemini-2.5-flash-lite
+  structure:
+    weights:
+      subject: 0.25
+      greeting: 0.25
+      body: 0.25
+      closing: 0.25

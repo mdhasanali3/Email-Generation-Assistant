@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "intent": "Meeting Follow-up",
+    "tone": "Professional",
+    "facts": [
+      "Discussed Q3 roadmap",
+      "Need feedback by Friday",
+      "Budget approval pending"
+    ]
+  },
+  {
+    "id": 2,
+    "intent": "Project Delay Notification",
+    "tone": "Apologetic",
+    "facts": [
+      "Launch delayed by two weeks",
+      "Caused by security testing",
+      "New target date July 15"
+    ]
+  },
+  {
+    "id": 3,
+    "intent": "Payment Reminder",
+    "tone": "Firm",
+    "facts": [
+      "Invoice #INV-456 overdue by 15 days",
+      "Amount due: $2,450",
+      "Please remit by end of week"
+    ]
+  },
+  {
+    "id": 4,
+    "intent": "Customer Complaint Response",
+    "tone": "Empathetic",
+    "facts": [
+      "Issue with delayed shipment",
+      "Order #ORD-789",
+      "Offering 15% discount as goodwill"
+    ]
+  },
+  {
+    "id": 5,
+    "intent": "Job Interview Scheduling",
+    "tone": "Friendly",
+    "facts": [
+      "Position: Senior AI Engineer",
+      "Available slots next week",
+      "Please reply with preferred time"
+    ]
+  },
+  {
+    "id": 6,
+    "intent": "Vendor Proposal Request",
+    "tone": "Professional",
+    "facts": [
+      "Need detailed RFP for cloud migration",
+      "Deadline for submission: June 30",
+      "Budget range: $150k-$200k"
+    ]
+  },
+  {
+    "id": 7,
+    "intent": "Partnership Inquiry",
+    "tone": "Warm",
+    "facts": [
+      "Interested in co-marketing opportunities",
+      "Mutual customer base in tech sector",
+      "Schedule introductory call"
+    ]
+  },
+  {
+    "id": 8,
+    "intent": "Contract Renewal Reminder",
+    "tone": "Formal",
+    "facts": [
+      "Current contract expires August 1",
+      "Discuss renewal terms",
+      "Current discount level to be maintained"
+    ]
+  },
+  {
+    "id": 9,
+    "intent": "Product Launch Announcement",
+    "tone": "Excited",
+    "facts": [
+      "New AI feature release on July 10",
+      "Early access for existing customers",
+      "Live demo webinar scheduled"
+    ]
+  },
+  {
+    "id": 10,
+    "intent": "Urgent Security Incident Notification",
+    "tone": "Urgent",
+    "facts": [
+      "Potential data breach detected",
+      "All users advised to change passwords",
+      "Incident response team engaged"
+    ]
+  }
+]

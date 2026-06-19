@@ -1,0 +1,9 @@
+,,fact_score,tone_score,structure_score,overall_score,overall_score
+,,mean,mean,mean,mean,std
+model_name,prompt_strategy,,,,,
+deepseek/deepseek-chat,few_shot,0.066,0.83,1.0,0.631,0.05
+deepseek/deepseek-chat,zero_shot,0.066,0.83,1.0,0.631,0.048
+google/gemini-2.5-flash-lite,few_shot,0.099,0.82,1.0,0.639,0.062
+google/gemini-2.5-flash-lite,zero_shot,0.066,0.85,1.0,0.637,0.051
+qwen/qwen3-32b,few_shot,0.066,0.83,1.0,0.631,0.055
+qwen/qwen3-32b,zero_shot,0.033,0.86,1.0,0.629,0.035

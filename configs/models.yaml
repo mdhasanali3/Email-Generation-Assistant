@@ -1,0 +1,7 @@
+models:
+  - name: google/gemini-2.5-flash-lite
+    provider: openrouter
+  - name: deepseek/deepseek-chat
+    provider: openrouter
+  - name: qwen/qwen3-32b
+    provider: openrouter

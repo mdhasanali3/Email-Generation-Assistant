@@ -1,0 +1,10 @@
+openai
+httpx
+pydantic
+pyyaml
+sentence-transformers
+pandas
+tenacity
+python-dotenv
+tiktoken
+asyncio

@@ -1,0 +1,886 @@
+scenario_id,model_name,prompt_strategy,fact_score,tone_score,structure_score,overall_score,generated_email,raw_judgment
+1,google/gemini-2.5-flash-lite,zero_shot,0.33,0.9,1.0,0.74,"Subject: Following Up: Q3 Roadmap Discussion and Feedback Request
+
+Dear [Recipient Name],
+
+It was productive to discuss the Q3 roadmap with you earlier.
+
+As a next step, we require your feedback on the proposed roadmap. Please submit your input by Friday, [Date of Friday].
+
+Additionally, please note that budget approval is currently pending.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+
+[Your Name]",
+1,google/gemini-2.5-flash-lite,few_shot,0.33,0.9,1.0,0.74,"Subject: Follow-Up on Q3 Roadmap Discussion
+
+Dear Team,
+
+Thank you for the productive discussion today regarding the Q3 roadmap. We covered several key initiatives, and budget approval is still pending.
+
+As a next step, I require your feedback on the proposed roadmap by end of day Friday.
+
+Thank you for your prompt attention to this matter.
+
+Best regards,
+Alex Johnson
+Project Lead",
+1,deepseek/deepseek-chat,zero_shot,0.0,0.9,1.0,0.63,"**Subject:** Follow-Up on Q3 Roadmap Discussion  
+
+**Dear [Recipient's Name],**  
+
+I hope this message finds you well. Thank you for taking the time to discuss the Q3 roadmap earlier this week—it was a productive conversation, and I appreciate your insights.  
+
+As we move forward, I’d like to request your feedback on the discussed items by Friday so we can finalize the plan. Additionally, please note that budget approval is still pending, and we’ll need to align on next steps once that’s confirmed.  
+
+Let me know if you have any questions or need further clarification in the meantime. I’m happy to assist.  
+
+**Best regards,**  
+[Your Full Name]  
+[Your Job Title]  
+[Your Contact Information]",
+1,deepseek/deepseek-chat,few_shot,0.33,0.9,1.0,0.74,"Subject: Follow-Up on Q3 Roadmap Discussion  
+
+Dear Team,  
+
+I hope this message finds you well. Following our recent discussion on the Q3 roadmap, I wanted to recap the key points and outline next steps.  
+
+We reviewed several critical initiatives during the meeting, and your insights were invaluable. As we move forward, I kindly request your feedback on the proposed roadmap by end of day Friday. Additionally, please note that budget approval for these initiatives remains pending, and we will provide updates as soon as they become available.  
+
+Thank you for your collaboration and prompt attention to this matter. Please don’t hesitate to reach out with any questions.  
+
+Best regards,  
+[Your Name]  
+[Your Position]",
+1,qwen/qwen3-32b,zero_shot,0.0,0.9,1.0,0.63,"Subject: Follow-Up on Q3 Roadmap Discussion and Next Steps  
+
+Dear [Team/Name],  
+
+Thank you for the productive discussion during our meeting today regarding the Q3 roadmap. As outlined, we need your feedback on the proposed initiatives by Friday, [Date], to ensure alignment and timely execution.  
+
+Please note that budget approval for the roadmap remains pending. We will share updates on this front as soon as available and appreciate your patience. In the interim, your input will help prioritize actions that align with both strategic goals and resource constraints.  
+
+If you have questions or require clarification on any aspect of the roadmap, don’t hesitate to reach out. Let’s ensure we maintain momentum and address any dependencies before the deadline.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Contact Information]",
+1,qwen/qwen3-32b,few_shot,0.33,0.9,1.0,0.74,"Subject: Follow-Up on Q3 Roadmap Discussion  
+
+Dear Team,  
+
+Thank you for the productive discussion today regarding the Q3 roadmap. We covered several key initiatives, and budget approval is still pending.  
+
+As a next step, I require your feedback on the proposed roadmap by end of day Friday.  
+
+Thank you for your prompt attention to this matter.  
+
+Best regards,  
+Alex Johnson  
+Project Lead",
+2,google/gemini-2.5-flash-lite,zero_shot,0.0,0.8,1.0,0.6,"Subject: Update Regarding Project Launch Timeline
+
+Dear Team,
+
+I am writing to provide an important update regarding the upcoming project launch. Unfortunately, we have encountered an issue that will necessitate a delay in our original timeline.
+
+The launch has been delayed by two weeks due to unforeseen complexities arising during our recent security testing phase. We understand the effort and dedication that has gone into preparing for this launch, and we sincerely apologize for any disruption this adjustment may cause.
+
+Our new target launch date is now July 15th. We are working diligently to address the security testing requirements and are confident in meeting this revised date.
+
+Thank you for your understanding and continued commitment.
+
+Sincerely,
+
+[Your Name]",
+2,google/gemini-2.5-flash-lite,few_shot,0.0,0.8,1.0,0.6,"Subject: Update on Project Launch Timeline
+
+Dear Stakeholders,
+
+I wanted to provide an update regarding our project launch. Due to additional security testing requirements, the launch will be delayed by two weeks.
+
+Our revised target launch date is July 15. While this adjustment impacts the original schedule, it ensures we maintain the highest standards of security and reliability.
+
+We apologize for any inconvenience this delay may cause and appreciate your understanding and continued support.
+
+Best regards,
+Project Team",
+2,deepseek/deepseek-chat,zero_shot,0.0,0.8,1.0,0.6,"**Subject:** Update: Project Launch Delayed by Two Weeks  
+
+**Dear Team,**  
+
+I wanted to inform you that we’ve encountered a delay in the project launch, pushing our target date back by two weeks. This adjustment is due to necessary security testing that requires additional time to ensure all systems meet our high standards.  
+
+The new target launch date is now **July 15**. I sincerely apologize for any inconvenience this may cause and appreciate your understanding as we prioritize delivering a secure and reliable solution.  
+
+Please let me know if you have any questions or need further clarification. Thank you for your continued hard work and flexibility.  
+
+**Best regards,**  
+[Your Name]  
+[Your Position]  
+[Your Contact Information]",
+2,deepseek/deepseek-chat,few_shot,0.0,0.9,1.0,0.63,"Subject: Important Update: Project Launch Delay  
+
+Dear [Recipient's Name],  
+
+I regret to inform you that we will need to delay the project launch by two weeks due to unforeseen requirements in security testing.  
+
+Our new target launch date is July 15. While this adjustment is not ideal, it is necessary to ensure the highest level of security and quality for the final deliverable.  
+
+I sincerely apologize for any inconvenience this may cause and appreciate your patience and understanding as we work to meet this revised timeline.  
+
+Best regards,  
+[Your Name]  
+[Your Position]",
+2,qwen/qwen3-32b,zero_shot,0.0,0.9,1.0,0.63,"Subject: Apology for Project Launch Delay – New Target Date July 15  
+
+Dear [Recipient's Name],  
+
+I am writing to inform you that the launch of [Project Name] has been delayed by two weeks, with the new target date set for July 15. This adjustment is necessary due to unforeseen complexities during security testing, which require additional time to ensure full compliance with our standards.  
+
+We deeply regret this delay and understand the importance of the original timeline. Our team is working diligently to resolve these issues without compromising quality or security. Please know that this decision was made to uphold the integrity of the project and deliver a solution that meets all expectations.  
+
+Should you have questions or need further details, I am happy to discuss directly. Thank you for your understanding and patience as we work through this challenge.  
+
+Sincerely,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+2,qwen/qwen3-32b,few_shot,0.0,0.7,1.0,0.57,"Subject: Update on Project Launch Timeline  
+
+Dear Stakeholders,  
+
+I regret to inform you that the project launch has been delayed by two weeks due to additional security testing requirements. This adjustment is necessary to ensure the integrity and reliability of our deliverables.  
+
+Our revised target launch date is now July 15. While this impacts our original timeline, the delay allows us to address critical security enhancements that are vital to the project’s success.  
+
+Thank you for your understanding and continued support as we work to deliver a secure and high-quality outcome.  
+
+Best regards,  
+Project Team",
+3,google/gemini-2.5-flash-lite,zero_shot,0.33,0.8,1.0,0.71,"Subject: Overdue Invoice #INV-456 - Action Required
+
+Dear [Client Name],
+
+This email serves as a firm reminder regarding Invoice #INV-456, which is now overdue by 15 days.
+
+The outstanding amount for this invoice is $2,450.
+
+We require remittance of the full amount by the end of this week.
+
+Sincerely,
+
+[Your Name]
+[Your Title]",
+3,google/gemini-2.5-flash-lite,few_shot,0.33,0.7,1.0,0.68,"Subject: Overdue Payment Reminder - Invoice #INV-456
+
+Dear Valued Client,
+
+This email serves as a firm reminder regarding Invoice #INV-456, which is now overdue by 15 days. The outstanding amount due is $2,450.
+
+We kindly request that you remit payment by the end of this week to bring your account up to date.
+
+Thank you for your prompt attention to this matter.
+
+Sincerely,
+
+[Your Name/Company Name]",
+3,deepseek/deepseek-chat,zero_shot,0.33,0.7,1.0,0.68,"Subject: Immediate Attention Required: Overdue Invoice #INV-456  
+
+Dear [Recipient's Name],  
+
+I hope this message finds you well. I am writing to remind you that Invoice #INV-456, with an outstanding balance of $2,450, is currently overdue by 15 days.  
+
+To avoid any further delays or complications, we kindly request that payment be remitted by the end of this week. Please ensure that this matter is addressed promptly to maintain the integrity of our business relationship.  
+
+Should you have any questions or require assistance with the payment process, do not hesitate to reach out. We appreciate your immediate attention to this matter.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]  
+[Your Contact Information]",
+3,deepseek/deepseek-chat,few_shot,0.33,0.7,1.0,0.68,"Subject: Overdue Payment Reminder - Invoice #INV-456  
+
+Dear [Recipient's Name],  
+
+I hope this message finds you well. I’m writing to remind you that Invoice #INV-456, totaling $2,450, is now 15 days overdue.  
+
+To ensure we can close this matter promptly, please remit payment by the end of this week.  
+
+Your immediate attention to this issue is appreciated. Should you have any questions or require assistance, feel free to reach out.  
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Your Company]",
+3,qwen/qwen3-32b,zero_shot,0.33,0.8,1.0,0.71,"Subject: Final Reminder: Overdue Invoice #INV-456 – Payment Due by [Date]  
+
+Dear [Client's Name],  
+
+This is a formal reminder that Invoice #INV-456, issued for the amount of $2,450, remains outstanding and is now 15 days overdue. We value our partnership and trust this will receive immediate attention.  
+
+To avoid any disruption to our ongoing services or potential late fees, we kindly request payment be processed by the end of this week, no later than [insert specific date, e.g., Friday, October 27, 2023]. Kindly reference the invoice number in your payment transaction for accurate processing.  
+
+Should there be any delays or issues requiring clarification, please contact me directly at [your email/phone] to resolve this matter promptly. Our payment portal remains accessible at [insert payment portal link or details] for your convenience.  
+
+We appreciate your swift action to settle this invoice.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]  
+[Your Contact Information]",
+3,qwen/qwen3-32b,few_shot,0.33,0.8,1.0,0.71,"Subject: Overdue Payment Reminder: Invoice #INV-456  
+
+Dear [Client Name],  
+
+This is a reminder that Invoice #INV-456, originally due [original due date], is now 15 days overdue. The outstanding amount of $2,450 remains unpaid, and we kindly request immediate processing to bring your account current.  
+
+To avoid any disruption to our ongoing services or future deliverables, please remit payment by the end of this week. If there are any issues or questions regarding this invoice, contact me directly at [your contact information] by [specific date or time frame].  
+
+We value your partnership and appreciate your prompt attention to this matter.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]",
+4,google/gemini-2.5-flash-lite,zero_shot,0.0,0.8,1.0,0.6,"Subject: Regarding Your Recent Order #ORD-789 and Shipment Delay
+
+Dear [Customer Name],
+
+Please accept our sincerest apologies regarding the delay in the shipment of your recent order, #ORD-789. We understand how frustrating it can be to experience unexpected delays, and we are truly sorry for any inconvenience this has caused you.
+
+We are actively working to resolve this issue and ensure your order reaches you as quickly as possible. As a token of our apology for this situation, we would like to offer you a 15% discount on your next purchase with us.
+
+Thank you for your understanding and continued patience.
+
+Sincerely,
+
+The [Your Company Name] Team",
+4,google/gemini-2.5-flash-lite,few_shot,0.0,0.8,1.0,0.6,"Subject: Regarding Your Recent Order #ORD-789 - Shipment Delay
+
+Dear Valued Customer,
+
+Please accept our sincerest apologies regarding the delay in your recent shipment for order #ORD-789. We understand how frustrating it can be when an order does not arrive as expected, and we are truly sorry for any inconvenience this has caused.
+
+As a token of our goodwill and to express our regret for this situation, we would like to offer you a 15% discount on your next purchase.
+
+We are working to resolve this issue and ensure your order reaches you as soon as possible. Thank you for your patience and understanding.
+
+Sincerely,
+Customer Support",
+4,deepseek/deepseek-chat,zero_shot,0.0,0.8,1.0,0.6,"**Subject:** Our Apologies for Your Delayed Shipment – Order #ORD-789  
+
+**Dear [Customer's Name],**  
+
+I sincerely apologize for the delay in shipping your order (#ORD-789). We understand how frustrating this must be, and we truly appreciate your patience while we resolve this matter.  
+
+To make it right, we’d like to offer you a 15% discount on your next purchase as a gesture of goodwill. Please let us know if there’s anything else we can do to improve your experience with us.  
+
+Thank you for bringing this to our attention—your feedback helps us serve you better. If you have any further questions, don’t hesitate to reach out.  
+
+**Best regards,**  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+4,deepseek/deepseek-chat,few_shot,0.0,0.9,1.0,0.63,"Subject: Our Sincere Apologies for Your Shipping Delay  
+
+Dear Valued Customer,  
+
+We sincerely apologize for the delay in shipping your order (#ORD-789). We understand how frustrating this must be, and we truly appreciate your patience.  
+
+As a gesture of goodwill, we’d like to offer you a 15% discount on your next purchase with us. We hope this helps make up for the inconvenience caused.  
+
+Please don’t hesitate to reach out if there’s anything else we can do to assist you.  
+
+Best regards,  
+[Your Name]  
+Customer Support Team",
+4,qwen/qwen3-32b,zero_shot,0.0,0.9,1.0,0.63,"Subject: Sincere Apologies for Delayed Shipment & Goodwill Offer for Order #ORD-789  
+
+Dear [Customer's Name],  
+
+We sincerely regret to hear about the inconvenience caused by the delayed shipment of your order (#ORD-789). Please accept our heartfelt apologies for this disruption—this is not the level of service we strive to deliver, and we deeply value your understanding as we work to resolve this matter.  
+
+To express our commitment to your satisfaction, we are gladly offering a 15% goodwill discount on your next purchase with us. You may apply this discount using the code [CODE-15] at checkout. Additionally, we have prioritized processing your current order and expect it to ship within [specific timeframe, if applicable].  
+
+Your trust in [Company Name] means everything to us. We are proactively reviewing our fulfillment processes to prevent similar issues moving forward. Should you need further assistance, please don’t hesitate to reach out directly to [Your Contact Information].  
+
+Thank you for bringing this to our attention, and for giving us the opportunity to make things right.  
+
+Warm regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+4,qwen/qwen3-32b,few_shot,0.0,0.7,1.0,0.57,"Subject: Resolution for Your Delayed Shipment - Order #ORD-789
+
+Dear [Customer Name],
+
+Thank you for bringing the issue with the delayed shipment of your order (#ORD-789) to our attention. I sincerely apologize for the inconvenience this has caused and understand how frustrating this must have been.
+
+We take full responsibility for the delay and are actively working to ensure such issues do not occur in the future. As a gesture of our commitment to your satisfaction, we are pleased to offer you a 15% discount on your next purchase.
+
+Please let us know if there’s anything further we can assist you with. We value your business and appreciate the opportunity to make things right.
+
+Warm regards,  
+[Your Full Name]  
+[Your Position]  
+[Company Name]",
+5,google/gemini-2.5-flash-lite,zero_shot,0.0,0.7,1.0,0.57,"Subject: Following Up: Senior AI Engineer Opportunity - Interview Availability
+
+Dear [Candidate Name],
+
+It was a pleasure speaking with you regarding the Senior AI Engineer position.
+
+I'd like to invite you for an interview next week. We have several available slots and would appreciate it if you could reply with your preferred time.
+
+We look forward to hearing from you.
+
+Best regards,
+
+[Your Name]
+[Your Title]",
+5,google/gemini-2.5-flash-lite,few_shot,0.0,0.7,1.0,0.57,"Subject: Scheduling Your Interview for Senior AI Engineer
+
+Dear [Candidate Name],
+
+Thank you for your interest in the Senior AI Engineer position at [Company Name]! We were impressed with your application and would like to invite you for an interview.
+
+We have several available time slots next week. To help us find the best fit, please reply to this email with your preferred days and times.
+
+We look forward to speaking with you soon!
+
+Best regards,
+[Your Name]
+[Your Title]",
+5,deepseek/deepseek-chat,zero_shot,0.0,0.8,1.0,0.6,"Subject: Scheduling Your Senior AI Engineer Interview  
+
+Dear [Candidate's Name],  
+
+I hope this email finds you well! We’re excited to move forward with your application for the Senior AI Engineer position and would like to schedule your interview.  
+
+We have several slots available next week and would appreciate it if you could let us know your preferred time. Once we hear back from you, we’ll confirm the details promptly.  
+
+Looking forward to your response!  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]",
+5,deepseek/deepseek-chat,few_shot,0.0,0.7,1.0,0.57,"Subject: Scheduling Your Interview for Senior AI Engineer
+
+Dear [Candidate's Name],
+
+I hope this message finds you well. We’re excited to move forward with the interview process for the Senior AI Engineer position.
+
+We have several slots available next week and would like to confirm a time that works best for you. Could you please let us know your preferred time?
+
+Looking forward to your reply!
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Company Name]",
+5,qwen/qwen3-32b,zero_shot,0.0,0.8,1.0,0.6,"Subject: Scheduling Your Senior AI Engineer Interview – Let’s Find a Convenient Time!  
+
+Dear [Candidate's Name],  
+
+We’re excited to move forward with your application for the Senior AI Engineer position and would like to schedule a time for your interview next week. Several slots are available to accommodate your preferences, and we’re happy to adjust further if needed.  
+
+Could you kindly reply by [specific date/time if applicable] with your preferred time? We’re looking forward to connecting and discussing your expertise in AI engineering.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+5,qwen/qwen3-32b,few_shot,0.0,0.8,1.0,0.6,"Subject: Scheduling Your Senior AI Engineer Interview – Available Slots Next Week!  
+
+Dear [Candidate's Name],  
+
+Thank you for applying for the Senior AI Engineer position at [Company Name]. We’re excited to move forward and would like to schedule your interview.  
+
+There are several available time slots next week for your convenience. Please let us know your preferred time by replying to this email, and we’ll confirm the details promptly.  
+
+This is an excellent opportunity to discuss how your expertise aligns with our team’s vision for innovation. Looking forward to your response!  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+6,google/gemini-2.5-flash-lite,zero_shot,0.0,0.9,1.0,0.63,"Subject: Request for Proposal: Cloud Migration Services
+
+Dear [Vendor Contact Name],
+
+[Company Name] is seeking a comprehensive proposal for our upcoming cloud migration project. We require a detailed Request for Proposal (RFP) outlining your approach, methodology, and timeline for a successful migration.
+
+The deadline for proposal submission is June 30. Our allocated budget for this initiative is in the range of $150,000 to $200,000. We look forward to receiving your detailed submission.
+
+Sincerely,
+
+[Your Name]
+[Your Title]",
+6,google/gemini-2.5-flash-lite,few_shot,0.33,0.9,1.0,0.74,"Subject: Request for Proposal: Cloud Migration Services
+
+Dear [Vendor Name],
+
+We are seeking a detailed Request for Proposal (RFP) for comprehensive cloud migration services.
+
+Please submit your proposal by June 30. Our budget range for this project is between $150,000 and $200,000.
+
+We look forward to receiving your submission.
+
+Sincerely,
+[Your Name]
+[Your Title]",
+6,deepseek/deepseek-chat,zero_shot,0.33,0.9,1.0,0.74,"Subject: Request for Proposal – Cloud Migration Services  
+
+Dear [Vendor's Name],  
+
+I hope this message finds you well. We are currently seeking a detailed proposal for cloud migration services and would like to invite your organization to submit a comprehensive RFP.  
+
+Key requirements include:  
+- A detailed scope of work outlining your approach to cloud migration  
+- Proposed timeline and milestones  
+- Breakdown of costs within our budget range of $150,000–$200,000  
+
+The deadline for submission is **June 30**. Please ensure your proposal addresses these criteria to be considered for this engagement.  
+
+We appreciate your time and expertise and look forward to reviewing your submission. Should you have any questions, feel free to reach out.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]  
+[Your Contact Information]",
+6,deepseek/deepseek-chat,few_shot,0.0,0.9,1.0,0.63,"Subject: Request for Vendor Proposal – Cloud Migration Project  
+
+Dear [Vendor Name],  
+
+I hope this message finds you well. We are currently seeking detailed proposals for our upcoming cloud migration initiative and would appreciate your submission.  
+
+The Request for Proposal (RFP) should outline your approach, timeline, and cost breakdown, aligning with our budget range of $150k–$200k. Please ensure your submission reaches us by June 30 for consideration.  
+
+We value your expertise and look forward to reviewing your proposal. Should you have any questions, feel free to reach out.  
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Your Company]",
+6,qwen/qwen3-32b,zero_shot,0.0,0.9,1.0,0.63,"Subject: Request for Proposal: Cloud Migration Services  
+
+Dear [Vendor Name],  
+
+We are currently seeking qualified vendors to assist with a cloud migration initiative and would like to request a detailed proposal from your organization.  
+
+To ensure alignment with our requirements, please include the following in your submission:  
+- A comprehensive outline of your approach to cloud migration, including technical methodology and risk mitigation strategies  
+- A detailed project timeline with key milestones  
+- A cost breakdown reflecting your services, with total costs falling within our budget range of $150,000–$200,000  
+
+Proposals must be submitted by **June 30** to be considered. We are particularly interested in solutions that demonstrate scalability, security compliance, and integration with our existing IT infrastructure.  
+
+Kindly confirm your ability to meet this deadline and provide a summary of your cloud migration expertise. Should you require any clarification, feel free to contact me directly at [email/phone].  
+
+We look forward to reviewing your RFP response.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+6,qwen/qwen3-32b,few_shot,0.0,0.9,1.0,0.63,"Subject: Request for Proposal: Cloud Migration Services (Deadline: June 30)  
+
+Dear [Vendor Name],  
+
+We are seeking a vendor to assist with our cloud migration initiative and kindly request your detailed proposal to support this effort.  
+
+To ensure alignment, please note the following parameters:  
+- **Scope**: Detailed RFP for cloud migration services  
+- **Budget Range**: $150,000–$200,000  
+- **Proposal Deadline**: June 30  
+
+Your submission should outline your approach, timelines, and how your services align with the specified budget range.  
+
+Kindly share your proposal by the stated deadline. Should you have questions, do not hesitate to contact me directly.  
+
+We look forward to reviewing your response.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Contact Information]",
+7,google/gemini-2.5-flash-lite,zero_shot,0.0,0.9,1.0,0.63,"Subject: Exploring Co-Marketing Opportunities with [Company Name]
+
+Dear [Contact Person Name],
+
+I hope this email finds you well.
+
+I'm writing to you today from [Your Company Name] with genuine warmth and enthusiasm to explore potential co-marketing opportunities between our organizations. We've been following [Company Name]'s work with great interest and believe there's a strong synergy we could leverage.
+
+Specifically, we've identified a significant mutual customer base within the tech sector, and we see a compelling opportunity to collaborate on initiatives that would provide added value to these shared clients.
+
+I would be delighted to schedule a brief introductory call at your convenience to discuss this further and explore how we might work together. Please let me know what time works best for you in the coming days.
+
+Thank you for your time and consideration.
+
+Warmly,
+
+[Your Name]
+[Your Title]
+[Your Company Name]
+[Your Contact Information]",
+7,google/gemini-2.5-flash-lite,few_shot,0.0,0.7,1.0,0.57,"Subject: Exploring Co-Marketing Opportunities
+
+Dear [Contact Name],
+
+I hope this email finds you well.
+
+We are very interested in exploring potential co-marketing opportunities between our companies. Our mutual customer base within the tech sector presents a strong foundation for a mutually beneficial partnership.
+
+Would you be available to schedule an introductory call sometime next week to discuss this further?
+
+Warm regards,
+
+[Your Name]
+[Your Title]",
+7,deepseek/deepseek-chat,zero_shot,0.0,0.7,1.0,0.57,"Subject: Exploring Co-Marketing Opportunities in the Tech Sector  
+
+Dear [Recipient's Name],  
+
+I hope this message finds you well. I’m reaching out because I believe there’s a strong alignment between our companies, particularly given our mutual customer base in the tech sector. I’d love to explore potential co-marketing opportunities that could benefit both of our organizations.  
+
+Would you be open to scheduling an introductory call to discuss this further? I’m confident we could uncover some exciting ways to collaborate. Please let me know a time that works best for you—I’m happy to accommodate your schedule.  
+
+Looking forward to the possibility of working together.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]  
+[Your Contact Information]",
+7,deepseek/deepseek-chat,few_shot,0.0,0.7,1.0,0.57,"Subject: Exploring Co-Marketing Opportunities  
+
+Dear [Recipient's Name],  
+
+I hope this message finds you well. I’m reaching out because I believe there’s a strong alignment between our companies, particularly given our mutual customer base in the tech sector.  
+
+I’d love to explore potential co-marketing opportunities that could benefit both of our organizations. Would you be available for an introductory call in the coming weeks to discuss this further?  
+
+Looking forward to the possibility of collaborating.  
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Your Company]",
+7,qwen/qwen3-32b,zero_shot,0.0,0.7,1.0,0.57,"Subject: Exploring Co-Marketing Opportunities in Tech Sector  
+
+Dear [First Name],  
+
+I hope this message finds you well. I’m reaching out to explore potential co-marketing opportunities between our organizations, as I believe we share a mutual customer base in the tech sector that could benefit from collaborative efforts. Aligning our resources to address this audience could amplify our impact and drive value for both teams.  
+
+Would you be available for a brief introductory call next week to discuss how we might structure such a partnership? I’d love to hear your thoughts on how we can align our goals and leverage our respective strengths.  
+
+Looking forward to the possibility of working together—thank you for your time and consideration. Please let me know your availability, and I’ll be happy to coordinate the details.  
+
+Warm regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]  
+[Your Contact Information]",
+7,qwen/qwen3-32b,few_shot,0.0,0.8,1.0,0.6,"Subject: Exploring Co-Marketing Opportunities  
+
+Dear [Name],  
+
+I hope this message finds you well! I’m reaching out to express our interest in exploring co-marketing opportunities with [Company Name], particularly given our shared focus on the tech sector and overlapping customer base.  
+
+We believe a partnership could create significant value for both teams, and I’d love to discuss how we might collaborate on initiatives that resonate with our mutual audience. To start, would you be available for a quick introductory call this week or next?  
+
+Looking forward to connecting and exploring possibilities together.  
+
+Warm regards,  
+[Your Full Name]  
+[Your Position]  
+[Your Contact Information]",
+8,google/gemini-2.5-flash-lite,zero_shot,0.0,0.9,1.0,0.63,"Subject: Contract Renewal Discussion - [Your Company Name] and [Client Company Name]
+
+Dear [Client Contact Name],
+
+This email serves as a formal reminder that our current contract is set to expire on August 1.
+
+We would like to schedule a discussion with you at your earliest convenience to review and discuss the renewal terms.
+
+As part of our renewal discussion, we propose to maintain the current discount level.
+
+We look forward to continuing our partnership and are eager to discuss how we can best support your needs moving forward. Please let us know what time works best for you to connect.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]",
+8,google/gemini-2.5-flash-lite,few_shot,0.0,0.9,1.0,0.63,"Subject: Contract Renewal Reminder - [Your Company Name] / [Vendor Company Name]
+
+Dear [Vendor Contact Name],
+
+This email serves as a formal reminder that our current contract is set to expire on August 1.
+
+We would like to discuss the renewal terms for this agreement. It is important to us that the current discount level is maintained as part of the renewed contract.
+
+Please let us know your availability to discuss this further at your earliest convenience.
+
+Sincerely,
+
+[Your Name]
+[Your Title]
+[Your Company Name]",
+8,deepseek/deepseek-chat,zero_shot,0.0,0.9,1.0,0.63,"Subject: Upcoming Contract Renewal Discussion  
+
+Dear [Recipient's Name],  
+
+I hope this email finds you well. As we approach the expiration of our current contract on August 1, I wanted to proactively initiate a discussion regarding its renewal.  
+
+We highly value our partnership and are keen to continue our collaboration under mutually beneficial terms. I would appreciate the opportunity to connect and discuss renewal details, ensuring a seamless transition. Additionally, it is important to us that the current discount level remains intact moving forward.  
+
+Please let me know your availability for a call or meeting at your earliest convenience. I’m happy to accommodate your schedule and look forward to finalizing the renewal process.  
+
+Thank you for your attention to this matter, and I’m confident we can continue to build on our successful partnership.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]  
+[Your Contact Information]",
+8,deepseek/deepseek-chat,few_shot,0.0,0.9,1.0,0.63,"Subject: Reminder: Contract Renewal Discussion Before August 1 Expiration  
+
+Dear [Recipient's Name],  
+
+I hope this message finds you well. I’m writing to remind you that our current contract is set to expire on August 1, and we would like to discuss renewal terms at your earliest convenience.  
+
+As part of this renewal, we aim to maintain the current discount level to ensure continuity and mutual benefit. Please let us know a suitable time to review the terms and finalize the agreement.  
+
+We value our partnership and look forward to continuing our collaboration.  
+
+Best regards,  
+[Your Name]  
+[Your Position]  
+[Your Company]",
+8,qwen/qwen3-32b,zero_shot,0.0,0.9,1.0,0.63,"Subject: Contract Renewal Reminder and Upcoming Discussion  
+
+Dear [Client's Name],  
+
+I hope this message finds you well. As your valued partner, we wanted to bring to your attention that your current contract is set to expire on August 1, and we would like to ensure a seamless transition as we approach this date.  
+
+To finalize the renewal process, we kindly request a discussion to review and confirm the terms moving forward. During this conversation, we will prioritize maintaining the current discount level you have with us, as we are committed to upholding the cost efficiencies and benefits you rely on.  
+
+Please let us know your preferred time for this meeting, and we will promptly coordinate with your team to secure a mutually convenient schedule. Should you have any preliminary questions or require adjustments to the proposed terms, do not hesitate to reach out.  
+
+We appreciate your continued partnership and look forward to finalizing the next phase of our collaboration.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Your Company Name]  
+[Your Contact Information]",
+8,qwen/qwen3-32b,few_shot,0.0,0.9,1.0,0.63,"Subject: Reminder: Contract Expiration and Renewal Discussion  
+
+Dear [Recipient's Name],  
+
+This is a formal reminder that your current contract with [Company Name] is set to expire on August 1. As we approach this date, we kindly request you schedule a discussion to review the renewal terms and ensure continuity of our partnership.  
+
+A key priority for us is to maintain the current discount level outlined in your existing agreement. We are prepared to finalize the terms promptly to avoid any service interruptions.  
+
+Please respond at your earliest convenience to coordinate a suitable time for this review. Should you have questions or require preliminary documentation, do not hesitate to contact us.  
+
+We value your partnership and look forward to finalizing the next phase of our collaboration.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+9,google/gemini-2.5-flash-lite,zero_shot,0.0,0.9,1.0,0.63,"Subject: Exciting News! Introducing Our New AI Feature on July 10th!
+
+Dear Valued Customer,
+
+Get ready for an exciting advancement! We are thrilled to announce the upcoming release of our groundbreaking new AI feature on July 10th.
+
+As a token of our appreciation for your continued partnership, we are offering you exclusive early access to this innovative technology. We believe this new AI feature will significantly enhance your experience and unlock new possibilities.
+
+To showcase its capabilities and answer your questions, we've scheduled a live demo webinar. We encourage you to join us to see firsthand how this feature can benefit you. Further details regarding the webinar registration will be shared shortly.
+
+We can't wait for you to experience this next evolution of our product!
+
+Sincerely,
+
+The [Your Company Name] Team",
+9,google/gemini-2.5-flash-lite,few_shot,0.0,0.9,1.0,0.63,"Subject: Exciting News: Introducing Our New AI Feature!
+
+Dear Valued Customers,
+
+We are thrilled to announce the upcoming release of our groundbreaking new AI feature on July 10! This innovative addition is designed to enhance your experience and unlock new possibilities.
+
+As a thank you for your continued loyalty, you will receive early access to this exciting new feature. We can't wait for you to explore its capabilities.
+
+To showcase the full potential of our AI feature, we have scheduled a live demo webinar. Further details and registration information will be shared shortly.
+
+Get ready for a revolutionary leap forward!
+
+Sincerely,
+The Product Team",
+9,deepseek/deepseek-chat,zero_shot,0.0,0.9,1.0,0.63,"**Subject:** Exciting News: New AI Feature Launching July 10 – Early Access for You!  
+
+**Dear [First Name],**  
+
+We’re thrilled to announce the launch of our groundbreaking new AI feature, available starting **July 10**! As a valued customer, you’re invited to take advantage of **early access** before the official release.  
+
+To help you get the most out of this powerful addition, we’ve scheduled a **live demo webinar** where you’ll see the feature in action and learn how it can transform your workflow. Stay tuned for the invitation!  
+
+We can’t wait for you to experience the innovation we’ve been working on. Thank you for being part of our journey.  
+
+**Best regards,**  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+9,deepseek/deepseek-chat,few_shot,0.0,0.8,1.0,0.6,"Subject: Exciting News: Our New AI Feature Launches July 10!
+
+Dear Valued Customers,
+
+We’re thrilled to announce the launch of our groundbreaking new AI feature, set to go live on July 10! This innovative addition is designed to elevate your experience and unlock new possibilities.
+
+As a token of our appreciation, existing customers will enjoy early access to this feature. Additionally, we’ve scheduled a live demo webinar to walk you through its capabilities and show you how to make the most of it.
+
+Stay tuned for more details, and get ready to experience the future!
+
+Best regards,  
+The Product Team",
+9,qwen/qwen3-32b,zero_shot,0.0,0.9,1.0,0.63,"Subject: Thrilled to Announce: Our Groundbreaking AI Feature Launches July 10 – Exclusive Access & Live Demo for You!  
+
+Dear [First Name],  
+
+We’re bursting with excitement to share that our latest AI-powered feature is set to revolutionize the way you work—**launching officially on July 10!** As a valued customer, you’ll enjoy **exclusive early access** to this transformative tool before it’s available to the broader market.  
+
+To help you make the most of this innovation, we’ve scheduled a **live demo webinar** where you’ll see firsthand how this feature can streamline workflows, boost efficiency, and deliver unmatched results. Details about the webinar date, time, and registration link will follow shortly, so stay tuned!  
+
+This is just the beginning of what we know you’ll love. Prepare to elevate your experience with cutting-edge intelligence designed specifically for your needs. Let us know if you’d like to learn more or share your thoughts—we’re here to help!  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+9,qwen/qwen3-32b,few_shot,0.0,0.9,1.0,0.63,"Subject: Exciting News: New AI Feature Launching July 10!  
+
+Dear [Name/Team],  
+
+We’re thrilled to announce the launch of our groundbreaking new AI feature on **July 10**! This innovation represents a major leap forward in [product/service name] capabilities, and we can’t wait to share it with you.  
+
+As a valued existing customer, you’ll be among the first to gain **exclusive early access** to this feature, ensuring you experience its benefits before the broader release. To help you make the most of this update, we’ve also scheduled a **live demo webinar** where you’ll see the AI feature in action and learn how to leverage its full potential.  
+
+Keep an eye out for further details on accessing the feature and registering for the webinar. Thank you for being part of our journey—we’re excited to elevate your experience with this transformative addition!  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+
+P.S. Mark your calendars: **July 10** is the date to remember for this game-changing AI feature!",
+10,google/gemini-2.5-flash-lite,zero_shot,0.0,0.9,1.0,0.63,"Subject: URGENT: Security Incident - Action Required
+
+Dear Valued User,
+
+We are writing to inform you of a potential security incident that has been detected.
+
+As a precautionary measure, all users are strongly advised to change their passwords immediately.
+
+Our incident response team has been engaged and is actively investigating this matter.
+
+We will provide further updates as they become available.
+
+Sincerely,
+
+[Your Company Name] Security Team",
+10,google/gemini-2.5-flash-lite,few_shot,0.0,0.9,1.0,0.63,"Subject: URGENT: Potential Data Breach - Immediate Action Required
+
+Dear All Users,
+
+We are writing to inform you about a potential data breach that has been detected.
+
+As a precautionary measure, all users are strongly advised to change their passwords immediately.
+
+Our incident response team has been engaged and is actively investigating this situation. Further updates will be provided as they become available.
+
+Thank you for your prompt attention to this critical matter.
+
+Sincerely,
+Security Team",
+10,deepseek/deepseek-chat,zero_shot,0.0,0.9,1.0,0.63,"**Subject:** Urgent: Security Incident Notification  
+
+**Dear Team,**  
+
+We have detected a potential data breach and are taking immediate action to safeguard our systems. Our incident response team is actively engaged in investigating the matter.  
+
+As a precaution, we strongly advise all users to change their passwords immediately. Please ensure your new password follows our security guidelines (minimum 12 characters, including special characters, numbers, and uppercase/lowercase letters).  
+
+We will provide further updates as the investigation progresses. If you have any questions or notice any unusual activity, please contact IT Support without delay.  
+
+**Best regards,**  
+[Your Name]  
+[Your Position]  
+[Company Name]",
+10,deepseek/deepseek-chat,few_shot,0.0,0.9,1.0,0.63,"Subject: Urgent: Security Incident Notification  
+
+Dear Team,  
+
+We have detected a potential data breach and are taking immediate action to mitigate any risks. Our incident response team is actively engaged in investigating the situation.  
+
+As a precautionary measure, all users are strongly advised to change their passwords immediately. Please ensure your new password follows our security guidelines.  
+
+We will provide further updates as soon as more information becomes available. Thank you for your prompt attention to this critical matter.  
+
+Best regards,  
+Security Team",
+10,qwen/qwen3-32b,zero_shot,0.0,0.9,1.0,0.63,"Subject: Urgent Security Incident Notification: Immediate Action Required  
+
+Dear [User/Team Name],  
+
+We are contacting you to inform you of a potential data breach that has been detected within our systems. At this time, we are investigating the scope and origin of the incident to ensure a thorough understanding of the risks involved.  
+
+As a precautionary measure, we are advising **all users to immediately change their passwords** for company accounts and systems. This action is critical to mitigate any potential exploitation of credentials that may have been compromised. Instructions for updating passwords can be found [insert link to password reset portal or IT guidelines].  
+
+Our dedicated **incident response team has been engaged** and is actively working to contain the issue, assess impacted systems, and implement additional safeguards. Further updates will be provided as more information becomes available.  
+
+Please treat this matter with the highest priority and complete the password change at your earliest convenience. If you have any questions or require immediate assistance, contact [IT support contact details] directly.  
+
+Thank you for your prompt attention to this urgent matter.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]  
+[Contact Information]",
+10,qwen/qwen3-32b,few_shot,0.0,0.9,1.0,0.63,"Subject: Urgent Security Incident Notification: Immediate Action Required  
+
+Dear [Recipient/Client Name],  
+
+We have detected a potential data breach that requires immediate attention. As a precautionary measure, all users are advised to change their passwords to their accounts without delay.  
+
+Our incident response team has been engaged to investigate the breach’s scope, identify affected systems, and implement remediation steps. This team is working around the clock to resolve the issue and restore full security to our platforms.  
+
+Please act promptly to update your passwords using the guidelines provided in the attached document. If you have further questions or require assistance, contact the IT department directly at [email/phone].  
+
+We are committed to transparency and will share additional updates as soon as details are confirmed.  
+
+Best regards,  
+[Your Full Name]  
+[Your Job Title]  
+[Company Name]",
